@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maps with Leaflet</title>
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet-src.js"></script>
+    <script src="leaflet/leaflet-providers.js"></script>
+    <script src="leaflet/leaflet-image.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="container">
+<!--coordinates-->
+    <div id="info">Your coordinates</div>
+    <div class="coordinates"><strong>Press</strong> "Get Current Location"</div>
+<!--maps-->
+    <div class="maps">
+        <div id="map"></div>
+    </div>
+<!--buttons-->
+    <div id="btns">
+    <button id="getLocation">Get Current Location</button>
+    <button id="saveButton">Save Raster Map</button>
+    <button id="makePuzzle">Make puzzle</button>
+    </div>
+<!--puzzle-->
+    <div id="tableP"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+<!--free bacground image from pexel.com-->
+</html>
